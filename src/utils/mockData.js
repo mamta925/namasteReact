@@ -1,7 +1,7 @@
 export const resList = [
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "334475",
         name: "KFC",
@@ -12,8 +12,8 @@ export const resList = [
         cloudinaryImageId: "bdcd233971b7c81bf77e1fa4471280eb",
         cuisines: ["Burgers", "Biryani", "American", "Snacks", "Fast Food"],
         tags: [],
-        costForTwo: 40000,
-        costForTwoString: "₹400 FOR TWO",
+
+        costForTwo: "₹400 FOR TWO",
         deliveryTime: 36,
         minDeliveryTime: 36,
         maxDeliveryTime: 36,
@@ -126,7 +126,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "229",
         name: "Meghana Foods",
@@ -144,8 +144,8 @@ export const resList = [
           "Seafood",
         ],
         tags: [],
-        costForTwo: 50000,
-        costForTwoString: "₹500 FOR TWO",
+       
+        costForTwo: "₹500 FOR TWO",
         deliveryTime: 29,
         minDeliveryTime: 29,
         maxDeliveryTime: 29,
@@ -253,7 +253,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "121603",
         name: "Kannur Food Point",
@@ -264,8 +264,8 @@ export const resList = [
         cloudinaryImageId: "bmwn4n4bn6n1tcpc8x2h",
         cuisines: ["Kerala", "Chinese"],
         tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
+      
+        costForTwo: "₹300 FOR TWO",
         deliveryTime: 31,
         minDeliveryTime: 31,
         maxDeliveryTime: 31,
@@ -388,7 +388,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "307050",
         name: "Call Me Chow",
@@ -399,8 +399,8 @@ export const resList = [
         cloudinaryImageId: "soegobqsiqvhmkfvnnkj",
         cuisines: ["Chinese", "Pan-Asian"],
         tags: [],
-        costForTwo: 40000,
-        costForTwoString: "₹400 FOR TWO",
+
+        costForTwo: "₹400 FOR TWO",
         deliveryTime: 29,
         minDeliveryTime: 29,
         maxDeliveryTime: 29,
@@ -513,7 +513,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "337335",
         name: "Kannur food kitchen",
@@ -524,8 +524,8 @@ export const resList = [
         cloudinaryImageId: "a27weqanhnszqiuzsoik",
         cuisines: ["Kerala", "Biryani", "Beverages"],
         tags: [],
-        costForTwo: 20000,
-        costForTwoString: "₹200 FOR TWO",
+      
+        costForTwo: "₹200 FOR TWO",
         deliveryTime: 30,
         minDeliveryTime: 30,
         maxDeliveryTime: 30,
@@ -648,7 +648,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "492159",
         name: "Roti Wala",
@@ -659,8 +659,8 @@ export const resList = [
         cloudinaryImageId: "f99d05e4f7884caa8646c70b0b752c7a",
         cuisines: ["Home Food", "North Indian", "Thalis"],
         tags: [],
-        costForTwo: 20000,
-        costForTwoString: "₹200 FOR TWO",
+   
+        costForTwo: "₹200 FOR TWO",
         deliveryTime: 36,
         minDeliveryTime: 36,
         maxDeliveryTime: 36,
@@ -768,7 +768,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "65797",
         name: "Leon's - Burgers & Wings (Leon Grill)",
@@ -779,8 +779,8 @@ export const resList = [
         cloudinaryImageId: "r4ufflqojich0r29efvc",
         cuisines: ["American", "Snacks", "Turkish", "Portuguese", "Continental"],
         tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
+    
+        costForTwo: "₹300 FOR TWO",
         deliveryTime: 29,
         minDeliveryTime: 29,
         maxDeliveryTime: 29,
@@ -893,7 +893,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "425",
         name: "Hotel Empire",
@@ -903,9 +903,8 @@ export const resList = [
         totalRatingsString: "1000+ ratings",
         cloudinaryImageId: "un4omn7rcunkmlw6vikr",
         cuisines: ["North Indian", "Kebabs", "Biryani"],
-        tags: [],
-        costForTwo: 45000,
-        costForTwoString: "₹450 FOR TWO",
+        tags: [],  
+        costForTwo: "₹450 FOR TWO",
         deliveryTime: 30,
         minDeliveryTime: 30,
         maxDeliveryTime: 30,
@@ -1013,7 +1012,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "428",
         name: "Biryani Pot",
@@ -1024,8 +1023,8 @@ export const resList = [
         cloudinaryImageId: "mdipoyzfzsa7n7igskht",
         cuisines: ["North Indian", "Biryani"],
         tags: [],
-        costForTwo: 50000,
-        costForTwoString: "₹500 FOR TWO",
+       
+        costForTwo: "₹500 FOR TWO",
         deliveryTime: 25,
         minDeliveryTime: 25,
         maxDeliveryTime: 25,
@@ -1132,7 +1131,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "306639",
         name: "The Coorg Food Co.",
@@ -1142,9 +1141,7 @@ export const resList = [
         totalRatingsString: "100+ ratings",
         cloudinaryImageId: "ej90ytd5x7ffyl6ii7cn",
         cuisines: ["South Indian"],
-        tags: [],
-        costForTwo: 75000,
-        costForTwoString: "₹750 FOR TWO",
+        tags: [],     costForTwo: "₹750 FOR TWO",
         deliveryTime: 28,
         minDeliveryTime: 28,
         maxDeliveryTime: 28,
@@ -1257,7 +1254,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "63957",
         name: "Madeena Hotel",
@@ -1268,8 +1265,8 @@ export const resList = [
         cloudinaryImageId: "yc0asfa2j9elggstyjg4",
         cuisines: ["Biryani", "Mughlai", "Indian", "Beverages"],
         tags: [],
-        costForTwo: 25000,
-        costForTwoString: "₹250 FOR TWO",
+
+        costForTwo: "₹250 FOR TWO",
         deliveryTime: 29,
         minDeliveryTime: 29,
         maxDeliveryTime: 29,
@@ -1377,7 +1374,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "71298",
         name: "Bengali Fun Foods",
@@ -1387,9 +1384,8 @@ export const resList = [
         totalRatingsString: "500+ ratings",
         cloudinaryImageId: "ub9ng9le0lf7opxxbxey",
         cuisines: ["North Indian"],
-        tags: [],
-        costForTwo: 30000,
-        costForTwoString: "₹300 FOR TWO",
+        tags: [],        costForTwo: 30000,
+        costForTwo: "₹300 FOR TWO",
         deliveryTime: 27,
         minDeliveryTime: 27,
         maxDeliveryTime: 27,
@@ -1502,7 +1498,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "59593",
         name: "Al Daaz",
@@ -1520,8 +1516,8 @@ export const resList = [
           "North Indian",
         ],
         tags: [],
-        costForTwo: 40000,
-        costForTwoString: "₹400 FOR TWO",
+ 
+        costForTwo: "₹400 FOR TWO",
         deliveryTime: 40,
         minDeliveryTime: 40,
         maxDeliveryTime: 40,
@@ -1628,7 +1624,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "5934",
         name: "Burger King",
@@ -1639,8 +1635,8 @@ export const resList = [
         cloudinaryImageId: "jpohkfkofao0hxez7vdh",
         cuisines: ["Burgers", "American"],
         tags: [],
-        costForTwo: 35000,
-        costForTwoString: "₹350 FOR TWO",
+   
+        costForTwo: "₹350 FOR TWO",
         deliveryTime: 31,
         minDeliveryTime: 31,
         maxDeliveryTime: 31,
@@ -1763,7 +1759,7 @@ export const resList = [
     },
     {
       type: "restaurant",
-      data: {
+      info: {
         type: "F",
         id: "365010",
         name: "Hotel Salam",
@@ -1774,8 +1770,8 @@ export const resList = [
         cloudinaryImageId: "hgdmw8uwgewhiewwovjh",
         cuisines: ["Biryani", "Tandoor", "Arabian", "Indian", "Beverages"],
         tags: [],
-        costForTwo: 25000,
-        costForTwoString: "₹250 FOR TWO",
+ 
+        costForTwo: "₹250 FOR TWO",
         deliveryTime: 31,
         minDeliveryTime: 31,
         maxDeliveryTime: 31,
